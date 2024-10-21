@@ -1,9 +1,5 @@
 import Image from 'next/image'
-import {
-  AiOutlineMenu,
-  AiOutlineAppstore,
-  AiOutlineCoffee,
-} from 'react-icons/ai'
+import { AiOutlineAppstore, AiOutlineCoffee } from 'react-icons/ai'
 
 import Me from '../../assets/images/yo.png'
 
@@ -48,14 +44,14 @@ function AboutPage() {
               </span>
             </p>
           </div>
-          <div className='flex gap-4'>
-            <button className='flex items-center gap-2 bg-primary-color p-2 rounded-full px-4'>
+          <div className='flex flex-col lg:flex-row gap-4'>
+            <button className='flex items-center gap-2 bg-primary-color p-3 rounded-full px-4'>
               <span>
                 <AiOutlineAppstore />
               </span>
               <p>Ver Portafolio</p>
             </button>
-            <button className='flex items-center gap-2 bg-three-color  p-2 rounded-full px-4'>
+            <button className='flex items-center gap-2 bg-three-color  p-3 rounded-full px-4'>
               <span>
                 <AiOutlineCoffee />
               </span>
