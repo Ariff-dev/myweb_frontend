@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={` antialiased`}>
-        <main className='flex'>
+        <main className=' bg-bg-color min-h-screen text-white  flex flex-col lg:flex-row '>
           <Navbar />
           {children}
         </main>

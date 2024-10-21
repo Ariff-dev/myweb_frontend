@@ -9,10 +9,22 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'component-navbar-background': '#4F4F4F',
-        'primary-color': '#3d8fec',
-        'secondary-color': '#5674FF',
-        'border-color': '#5E5E5E',
+        'component-navbar-background': '#1d1d1d',
+        'bg-color': '#141414',
+        'primary-color': '#1C5D99',
+        'secondary-color': '#FFFFFF',
+        'three-color': '#4EA699',
+        'border-color': '#888888',
+        //         /* CSS HEX */
+        // --night: #141414ff;
+        // --white: #ffffffff;
+        // --lapis-lazuli: #1c5d99ff;
+        // --keppel: #4ea699ff;
+        // --emerald: #2dd881ff;
+      },
+      container: {
+        center: true,
+        padding: '',
       },
     },
   },
